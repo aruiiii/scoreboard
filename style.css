@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #0C2046;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main h1{
+    color: white;
+    font-size: 80px;
+}
+
+.home, .guest{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    margin-right: 80px;
+}
+
+.score{
+    width: 280px;
+    height: 180px;
+    background: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px 0 20px;
+
+    text-align: center;
+}
+
+.score h1{
+    color:red;
+    font-size: 120px;
+}
+
+.add button{
+    width: 80px;
+    height: 80px;
+    margin: 10px 5px 0;
+    font-size: 20px;
+    border: 1px solid white;
+    background: #0C2046;
+    border-radius: 10px;
+
+    color: white;
+}
